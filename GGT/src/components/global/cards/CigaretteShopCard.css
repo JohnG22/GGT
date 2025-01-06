@@ -1,0 +1,99 @@
+.colored_text {
+  color: #8D1737;
+  font-weight: 600;
+}
+
+.cigarette_card_available {
+  font-weight: 300;
+}
+
+.cigarette_shop_card_button {
+  border:1px solid #8D1737;
+  --background: transparent;
+  --color: #8D1737;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.cigarette_card_content{
+  margin: 0px 15px;
+  text-align: left;
+}
+
+.cigarette_shop_card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #F8F9FE;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 16px;
+  margin-top: 20px;
+  font-weight: 500;
+  align-items: center;
+  align-content: center;
+}
+
+.cigarette_shop_card_title {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.cigarette_card_price {
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cigarette_card_price span {
+  color: #71727A;
+}
+
+.cigarette_card_code {
+  color: #71727A;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.cigarette_card_available {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #494A50;
+  font-size: 12px;
+}
+
+.cigarette_shop_card_button img {
+  margin-right: 5px;
+}
+
+.cigarette_card_tag_container {
+  position: relative;
+  width: 100%;
+}
+
+.cigarette_card_tag {    
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 10px;
+  padding: 6px 8px 6px 8px;
+  color: white;
+  letter-spacing: .05em;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.cigarette_card_tag_grey {
+  background-color: #49454F;
+}
+.cigarette_card_tag_green {
+  background-color: #9ABF9A;
+}

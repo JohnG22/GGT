@@ -1,0 +1,67 @@
+.sales_agent_card {
+  border: 1px solid #8D1737;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.sales_agent_card_col {
+  padding: 12px 8px;
+  background: #F8F9FE;
+  flex: 1;
+}
+
+.sales_agent_colored {
+  background-color: #8D1737;
+  color: white;
+  border-radius: 18px 0 0 18px;
+  max-width: 50%;
+}
+
+.sales_agent_colored_right {
+  border-radius: 0 18px 18px 0;
+  max-width: 50%;
+}
+
+.card_content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+}
+
+.icon_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon_wrapper img {
+  width: auto;
+  height: auto;
+  max-width: 24px;
+  object-fit: contain;
+}
+
+.text_content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1;
+}
+
+.label {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.info {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.arrow {
+  margin-left: auto;
+  cursor: pointer;
+}

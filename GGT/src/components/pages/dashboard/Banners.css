@@ -1,0 +1,112 @@
+/* Wrapper and Layout */
+.container {
+  width: 100%;
+  max-width: 100rem; /* 6xl in Tailwind */
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 1.5rem; /* text-2xl in Tailwind */
+  font-weight: 700; /* font-bold in Tailwind */
+  text-align: center;
+  margin-bottom: 2rem; /* mb-8 in Tailwind */
+}
+
+/* Slider */
+.slider {
+  position: relative;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  position: absolute;
+  transition: all 0.5s ease-in-out; /* transition-all duration-500 ease-in-out */
+  width: 80%; /* w-4/5 in Tailwind */
+  max-width: 32rem; /* max-w-2xl in Tailwind */
+}
+
+.slide img {
+  width: 100%;
+}
+
+.slide-content {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.slide-content h3 {
+  font-size: 1.25rem;     
+  font-weight: 600;       
+  margin-bottom: 0.75rem; 
+}
+
+.slide.active {
+  transform: scale(1);
+  z-index: 20;
+  opacity: 1;
+}
+
+.slide.previous {
+  transform: translateX(-75%) scale(0.75); 
+  z-index: 10;
+  opacity: 0.5;
+}
+
+.slide.next {
+  transform: translateX(75%) scale(0.75);
+  z-index: 10;
+  opacity: 0.5;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  background-color: #e5e7eb;  
+  padding: 0.5rem 1.5rem;     
+  border-radius: 9999px;      
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #d1d5db; /* hover:bg-gray-300 in Tailwind */
+}
+
+/* Counter */
+.counter {
+  font-size: 1rem; /* text-lg in Tailwind */
+}
+
+/* Dots Navigation */
+.dots {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 0.5rem;        
+  height: 0.5rem;       
+  border-radius: 50%;   
+  background-color: #d1d5db;  
+  margin: 0 0.5rem; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #8D1737;
+}
+
+.dot:hover {
+  background-color: #8D1737;
+}

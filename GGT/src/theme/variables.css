@@ -1,0 +1,11 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body, ion-content {
+  font-family: 'Inter', sans-serif;
+}
+
+.basic_padding {
+  margin: 15px !important;
+}

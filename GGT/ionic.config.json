@@ -1,0 +1,7 @@
+{
+  "name": "GGT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
