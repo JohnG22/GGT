@@ -63,7 +63,7 @@ const Login: React.FC = () => {
   // View__________________________________________________________________________________________
   return (
     <IonPage>
-      <IonContent className="ion-padding login-container">
+      <IonContent className="ion-padding login-container" style={{ paddingTop: 'env(safe-area-inset-top)'}}>
         
         {/* Logo */}
         <div className="logo-container">
