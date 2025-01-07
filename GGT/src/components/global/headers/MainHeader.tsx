@@ -25,7 +25,7 @@ const MainHeader: FC<MainHeaderProps> = () => {
   
   // View__________________________________________________________________________________________
   return (
-    <IonHeader>
+    <IonHeader className='ion-no-border'>
       <div className="header-container">
         <div className="logo-section">
           <img src="main_logo.png" className="logo" />

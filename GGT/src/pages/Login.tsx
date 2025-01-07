@@ -107,6 +107,7 @@ const Login: React.FC = () => {
           className="login-button"
           onClick={handleLogin}
           expand="block" 
+          mode='ios'
         >
           Přihlásit se
         </IonButton>

@@ -73,6 +73,7 @@ const CigaretteShopCard: FC<CigaretteShopCardProps> = ({ data }) => {
         <IonButton 
           className="cigarette_shop_card_button" 
           expand="block"
+          mode='ios'
         >
           <img src="shop_cart.png" />
           Vložit do košíku

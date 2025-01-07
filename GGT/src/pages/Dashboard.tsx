@@ -95,7 +95,7 @@ const Dashboard: React.FC = () => {
                 }/>
 
                 {/* Content - Banners */}
-                <Carousel title="Bannery" children={ <Banners heading="Example Slider" slides={slideData}  /> }/>
+                <Carousel title="Bannery" children={ <Banners heading="Example Slider" slides={slideData} /> }/>
 
                 {/* Content - Top Sales */}
                 <Carousel title="Nejprodávanější" children={
